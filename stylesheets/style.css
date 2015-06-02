@@ -1,0 +1,112 @@
+@charset "UTF-8";
+/* line 24, ../sass/style.scss */
+.mini-block {
+  width: 100%;
+  height: 351px;
+  margin: 0% 15% 0% 15%;
+  display: block;
+}
+
+/* line 30, ../sass/style.scss */
+.picture {
+  width: 60%;
+  height: 351px;
+  display: inline-block;
+  position: absolute;
+}
+
+/* line 38, ../sass/style.scss */
+.bbody {
+  background: #000000;
+  background-repeat: no-repeat;
+  max-height: 100%;
+  margin: 0 auto;
+  /* ╤Б╨░╨╣╤В ╤А╨░╤Б╨┐╨╛╨╗╨░╨│╨░╨╡╤В╤Б╤П ╨┐╨╛ ╤Ж╨╡╨╜╤В╤А╤Г ╤Н╨║╤А╨░╨╜╨░ */
+  max-width: 1800px;
+  overflow-x: hidden;
+}
+/* line 46, ../sass/style.scss */
+.bbody .backgroundBody {
+  background: url("../images/light-top.png") top, url("../images/light-bottom.png") bottom;
+  background-repeat: no-repeat, no-repeat;
+  width: 100%;
+  height: 1500px;
+  padding: 0px;
+  margin: 0px;
+}
+/* line 56, ../sass/style.scss */
+.bbody .backgroundBody .block {
+  width: 100%;
+  height: 20%;
+}
+/* line 60, ../sass/style.scss */
+.bbody .backgroundBody .block .logo {
+  background-image: url("../images/logo.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 10%;
+}
+/* line 68, ../sass/style.scss */
+.bbody .backgroundBody .block .text-big {
+  font-size: 30px;
+  font-family: 'Lucida Sans, sans serif';
+  color: #FFFFFF;
+  text-align: center;
+  margin-bottom: 10px;
+}
+/* line 75, ../sass/style.scss */
+.bbody .backgroundBody .block .text-red {
+  font-size: 15px;
+  font-family: "Lucida Sans, sans serif";
+  color: #755E7A;
+  text-align: center;
+  margin: 0px;
+}
+/* line 82, ../sass/style.scss */
+.bbody .backgroundBody .block .button {
+  background-image: url("../images/button.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 50px;
+}
+/* line 87, ../sass/style.scss */
+.bbody .backgroundBody .block .button .text-btn {
+  font-size: 24px;
+  font-family: "Lucida Sans, sansserif";
+  color: #FFFFFF;
+  font-weight: bold;
+  line-height: 1;
+  text-align: center;
+  padding-top: 12px;
+}
+/* line 99, ../sass/style.scss */
+.bbody .backgroundBody .block .mini-block .text-grey {
+  color: #7C7B7B;
+}
+/* line 102, ../sass/style.scss */
+.bbody .backgroundBody .block .mini-block .description {
+  width: 40%;
+  padding: 12% 0 0 0;
+  display: inline-block;
+}
+/* line 107, ../sass/style.scss */
+.bbody .backgroundBody .block .mini-block .description .situation-l {
+  text-align: left;
+}
+/* line 113, ../sass/style.scss */
+.bbody .backgroundBody .block .mini-block .picture .catalog {
+  background-image: url("../images/catalog.png");
+  background-repeat: no-repeat;
+}
+/* line 123, ../sass/style.scss */
+.bbody .backgroundBody .block .mini-block .picture .convertation {
+  background-image: url("../images/convertation.png");
+  width: 400px;
+  height: 352px;
+  background-repeat: no-repeat;
+}
+/* line 157, ../sass/style.scss */
+.bbody .backgroundBody .block .mini-block .picture .leptop {
+  background-image: url("../images/leptop.png");
+  background-repeat: no-repeat;
+}
